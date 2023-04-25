@@ -9,16 +9,16 @@ export default function Footer() {
         <h5 class="text-xl font-bold mb-6">Features</h5>
         <ul class="list-none footer-links ">
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent">Find A Store</a>
+            <Link href="#" class="border-b border-solid border-transparent">Find A Store</Link>
           </li>
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent ">Member</a>
+            <Link href="#" class="border-b border-solid border-transparent ">Member</Link>
           </li>
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent ">Sign Up for Email</a>
+            <Link href="#" class="border-b border-solid border-transparent ">Sign Up for Email</Link>
           </li>
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent ">customer care</a>
+            <Link href="#" class="border-b border-solid border-transparent ">customer care</Link>
           </li>
         </ul>
       </div>
@@ -26,16 +26,16 @@ export default function Footer() {
         <h5 class="text-xl font-bold mb-6">Resources</h5>
         <ul class="list-none footer-links">
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent" >Resource</a>
+            <Link href="#" class="border-b border-solid border-transparent" >Resource</Link>
           </li>
           <li className="">
-            <a href="#" class="border-b border-solid border-transparent ">Resource name</a>
+            <Link href="#" class="border-b border-solid border-transparent ">Resource name</Link>
           </li>
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent ">Another resource</a>
+            <Link href="#" class="border-b border-solid border-transparent ">Another resource</Link>
           </li>
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent ">Final resource</a>
+            <Link href="#" class="border-b border-solid border-transparent ">Final resource</Link>
           </li>
         </ul>
       </div>
@@ -43,16 +43,16 @@ export default function Footer() {
         <h5 class="text-xl font-bold mb-6">About</h5>
         <ul class="list-none footer-links">
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent ">Team</a>
+            <Link href="#" class="border-b border-solid border-transparent ">Team</Link>
           </li>
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent ">Locations</a>
+            <Link href="#" class="border-b border-solid border-transparent ">Locations</Link>
           </li>
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent ">Privacy</a>
+            <Link href="#" class="border-b border-solid border-transparent ">Privacy</Link>
           </li>
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent ">Terms</a>
+            <Link href="#" class="border-b border-solid border-transparent ">Terms</Link>
           </li>
         </ul>
       </div>
@@ -60,13 +60,13 @@ export default function Footer() {
         <h5 class="text-xl font-bold mb-6">Help</h5>
         <ul class="list-none footer-links">
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent">Support</a>
+            <Link href="#" class="border-b border-solid border-transparent">Support</Link>
           </li>
           <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent">Help Center</a>
+            <Link href="#" class="border-b border-solid border-transparent">Help Center</Link>
           </li>
           <li class="">
-            <a href="#" class="border-b border-solid border-transparent ">Contact Us</a>
+            <Link href="#" class="border-b border-solid border-transparent ">Contact Us</Link>
           </li>
         </ul>
       </div>

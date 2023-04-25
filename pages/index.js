@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import home_img from '../public/home_img.png'
 import Footer from './components/Footer'
+import Link from 'next/link'
 export default function Home() {
   return (
     <>
@@ -23,10 +24,10 @@ export default function Home() {
       <h1 className='font-bold text-3xl text-[#CFFFCB] '>FARMER’S CONNECT</h1>
       <p className='max-w-lg'>DONATE CLOTHES AND GET REWARDS THROUGH OUR SPECIAL FARMER’S CONNECT PROGRAM. WE HERE AT ECOTHREADS ARE CONNECTED VERY CLOSELY WITH THE FARMERS WHO SUPPLY OUR ORGANIC FIBRES AND TRY AND GIVE BACK TO THEM IN A SPECIAL WAY.</p>
       <div class=" border-[#CFFFCB] p-10  uppercase ">
-                                        <a href="/" class=" border-2 border-[#CFFFCB] mt-3 text-sm font-medium  w-56  rounded-3xl px-6 py-3  text-center">GET STARTED   </a>
+                                        <Link href="/" className=" border-2 border-[#CFFFCB] mt-3 text-sm font-medium  w-56  rounded-3xl px-6 py-3  text-center">GET STARTED   </Link>
                                     </div>
                                     <div class=" border-[#CFFFCB] p-10  uppercase ">
-                                        <a href="/" class=" border-2 border-[#CFFFCB]  text-sm font-medium  w-56  rounded-3xl px-6 py-3  text-center">DONATE NOW   </a>
+                                        <Link href="/" className=" border-2 border-[#CFFFCB]  text-sm font-medium  w-56  rounded-3xl px-6 py-3  text-center">DONATE NOW   </Link>
                                     </div>
       </div>
  
@@ -41,7 +42,7 @@ export default function Home() {
       <h1 className='font-bold text-4xl text-[#CFFFCB] '>SIGN UP TO OUR NEWSLETTER!</h1>
       <p className='max-w-lg pt-10'>SUBSCRIBE TO OUR MONTHLY NEWSLETTER WHERE YOU CAN FIND OUT ABOUT THE LATEST DEALS AND FASHION TRENDS COMING UP AT ECOTHREADS.</p>
       <div class=" border-[#CFFFCB] p-10  uppercase ">
-                                        <a href="/" class=" border-2 border-[#CFFFCB] mt-3 text-sm font-medium  w-56  rounded-3xl px-6 py-3  text-center">SUBSCRIBE   </a>
+                                        <Link href="/" className=" border-2 border-[#CFFFCB] mt-3 text-sm font-medium  w-56  rounded-3xl px-6 py-3  text-center">SUBSCRIBE   </Link>
                                     </div>
       </div>
  

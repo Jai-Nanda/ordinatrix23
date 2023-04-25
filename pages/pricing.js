@@ -84,7 +84,7 @@ export default function pricing() {
                                         </ul>
                                     </div>
                                     <div class=" flex justify-center items-center p-8  uppercase">
-                                        <a href="/register" class="mt-3 text-sm font-medium  w-52 rounded-3xl px-6 py-3 block border-2 border-primary-color text-center">GET STARTED   </a>
+                                        <Link href="/register" class="mt-3 text-sm font-medium  w-52 rounded-3xl px-6 py-3 block border-2 border-primary-color text-center">GET STARTED   </Link>
                                     </div>
                                 </div>
                             </div>
@@ -225,7 +225,7 @@ export default function pricing() {
                                         </ul>
                                     </div>
                                     <div class=" flex justify-center items-center p-8  uppercase">
-                                        <a href="/register" class="mt-3 text-sm font-medium  w-52 rounded-3xl px-6 py-3 block border-2 border-primary-color text-center">GET STARTED   </a>
+                                        <Link href="/register" className="mt-3 text-sm font-medium  w-52 rounded-3xl px-6 py-3 block border-2 border-primary-color text-center">GET STARTED   </Link>
                                     </div>
                                 </div>
                             </div><div class="border-2 border-primary-color rounded-2xl h-[575px] w-80 bg-[#CFFFCB] shadow-custom2">
@@ -422,7 +422,7 @@ export default function pricing() {
                                         </ul>
                                     </div>
                                     <div class=" flex justify-center items-center p-8  uppercase">
-                                        <a href="/register" class="mt-3 text-sm font-medium  w-52 rounded-3xl px-6 py-3 block border-2 border-primary-color text-center">GET STARTED   </a>
+                                        <Link href="/register" class="mt-3 text-sm font-medium  w-52 rounded-3xl px-6 py-3 block border-2 border-primary-color text-center">GET STARTED   </Link>
                                     </div>
                                 </div>
                             </div>
