@@ -2,8 +2,8 @@ import connectDb from '../../middleware/mongoose'
 import Product from '../../models/Product'
 
 const handler = async (req, res) => {
-    let products = await Product.find()
-    res.status(200).json({products})
+    let product = await Product.find()
+    res.status(200).json({product})
 }
 
 export default connectDb(handler)

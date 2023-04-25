@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose, AiOutlineSearch } from 'react-icons/ai';
 import { useRouter } from 'next/router';
-import Logo from '../../public/next.svg'
+import Logo from '../../public/logo.png'
 import { AiOutlineHeart, AiOutlineCloseCircle } from 'react-icons/ai'
 import { BsFillCartFill } from 'react-icons/bs'
 const Navbar = () => {
@@ -26,15 +26,15 @@ const Navbar = () => {
     },
     {
       label: "MEMBERSHIP",
-      path: "/events"
+      path: "/pricing"
     },
     {
       label: "ABOUT US",
       path: "/about"
     },
     {
-      label: "SUPPORT",
-      path: "/team"
+      label: "YOUR PRODUCT",
+      path: "/components/slug"
     }
   ]
 
@@ -61,7 +61,7 @@ const Navbar = () => {
   <AiOutlineSearch className='absolute inset-y-0 left-0 w-4 h-4 my-auto ml-2 fill-current' size={28}/>
   <input class="block rounded-s- w-full border bg-gray-100 rounded py-2 px-4 pl-10 focus:outline-none focus:ring focus:border-none" type="text" placeholder="Search"/>
 </div>
-<div className='absolute top-0  right-0 bg-green-500 w-60  h-full '>
+<div className='absolute top-0  right-0 bg-green-500 w-60  h-full hidden'>
   <div className='flex justify-evenly items-center mt-10'>
     <h1 className='text-white text-xl font-bold'>My Shopping Cart</h1>
     <AiOutlineCloseCircle size={24} color='white' className=''/>

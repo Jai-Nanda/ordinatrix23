@@ -22,6 +22,7 @@ const ProductSchema = new mongoose.Schema({
     status: {type: String, default: "Pending", required: true},
   }, {timestamps: true})
 
-  mongoose.model = {}
-  const myModel = mongoose.model('Product', ProductSchema);
-  export default myModel;
+//   mongoose.model = {}
+  export default mongoose.model('Product', ProductSchema);  ;
+
+  

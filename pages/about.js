@@ -2,8 +2,18 @@ import Image from 'next/image'
 import about1 from '../public/about1.png'
 import about2 from '../public/about2.png'
 import about3 from '../public/about3.png'
+import Footer from './components/Footer'
+import Head from 'next/head'
 export default function about() {
   return (
+        
+        <>
+           <Head>
+        <title>EcoThreads | About Us</title>
+        <meta name="description" content="A Sustainable Fashion Firm" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.svg" />
+      </Head>
     <div className='max-w-7xl m-auto'>
       <Image src={about1} className='max-w-5xl m-auto h-[560px] mt-14'></Image>
       <p className='mt-14 text-lg'>Welcome to <b>EcoThreads</b>, a socially responsible and environmentally sustainable fashion brand that is dedicated to transforming the fashion industry. </p>
@@ -39,7 +49,8 @@ Thank you for joining us on our mission to transform the fashion industry. Toget
        
 <Image src={about3} className='h-[470px]'></Image>
     </div>
-    
     </div>
+    <Footer/>
+    </>
   )
 }

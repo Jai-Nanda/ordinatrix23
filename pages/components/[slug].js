@@ -1,5 +1,8 @@
 import { useRouter } from 'next/router'
 import { useState } from 'react'
+import Image from 'next/image'
+import Head from 'next/head'
+import idk from '../../public/home_img.png'
 const Post = () => {
   const router = useRouter()
   const { pid } = router.query
@@ -20,24 +23,24 @@ const Post = () => {
       setPin(e.target.value)
   }
   return <>
+     <Head>
+        <title>EcoThreads | Products</title>
+        <meta name="description" content="A Sustainable Fashion Firm" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.svg" />
+      </Head>
 
 <section class=" body-font overflow-hidden">
   <div class="container px-5 py-24 mx-auto">
     <div class="lg:w-4/5 mx-auto flex flex-wrap">
-      <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400"/>
+      {/* <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400"/> */}
+      <Image className='lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded' src={idk}></Image>
       <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
         <h2 class="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
         <h1 class=" text-3xl title-font font-medium mb-1">The Catcher in the Rye</h1>
        
         <p class="leading-relaxed">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
         <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
-          <div class="flex">
-            <span class="mr-3">Color</span>
-            <button class="border-2 border-gray-800 rounded-full w-6 h-6 focus:outline-none"></button>
-            <button class="border-2 border-gray-800 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
-            <button class="border-2 border-gray-800 ml-1 bg-primary-color rounded-full w-6 h-6 focus:outline-none"></button>
-          </div>
-          <div class="flex ml-6 items-center">
             <span class="mr-3">Size</span>
             <div class="relative">
               <select class="rounded border border-gray-700 focus:ring-2 focus:ring-primary-color bg-transparent appearance-none py-2 focus:outline-none focus:border-primary-color  pl-3 pr-10">
@@ -53,7 +56,6 @@ const Post = () => {
               </span>
             </div>
           </div>
-        </div>
         <div class="flex justify-between">
           <span class="title-font font-medium text-2xl mr-20 ">$58.00</span>
           <input placeholder='Enter your pincode' onChange={ok} type="text" name="" id="" className='border-2 border-primary-color rounded-xl px-4'/>

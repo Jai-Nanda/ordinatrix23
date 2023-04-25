@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       colors: {
         "primary-color": "#253323",
+        "bg-okay": "background: red"
       }
     },
   },

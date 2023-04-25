@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.shadow-custom {
+    filter: drop-shadow(-18.1154px 11.8144px 26.7793px rgba(0, 0, 0, 0.09)) drop-shadow(2.36288px -7.87626px 14.9649px rgba(0, 0, 0, 0.02));
+    box-shadow: 43.3194px 107.905px 46.4699px rgba(0, 0, 0, 0.01), 24.4164px 60.6472px 39.3813px rgba(0, 0, 0, 0.05), 11.0268px 26.7793px 29.1422px rgba(0, 0, 0, 0.09), 2.36288px 7.08864px 15.7525px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    
+  }
+  .shadow-custom2{
+    box-shadow: 0px 4px 51px 8px rgba(42, 255, 24, 0.15), 17px 18px 41px rgba(0, 112, 38, 0.32);
+  }
+  .shadow-custom3{
+    mix-blend-mode: screen;
+    opacity: 0.19;
+    box-shadow: 0px 143px 57px rgba(0, 0, 0, 0.01), 0px 81px 48px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09), 0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  }
