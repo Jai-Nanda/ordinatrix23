@@ -2,6 +2,7 @@ import Image from "next/image"
 import vector from '../public/vector.png'
 import Footer from "./components/Footer"
 import Head from "next/head"
+import Link from "next/link"
 export default function pricing() {
     return (
         <>
