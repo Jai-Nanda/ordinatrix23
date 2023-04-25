@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className=''>
-        <Image className='w-full h-[90vh]' src={home_img}></Image>
+        <Image className='w-full h-[90vh]' src={home_img} alt='hey'></Image>
         <div className='w-full h-[90vh]' style={{
       backgroundImage: `url(/home2.png)`,
       backgroundPosition: 'center',

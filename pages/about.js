@@ -15,7 +15,7 @@ export default function about() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
     <div className='max-w-7xl m-auto'>
-      <Image src={about1} className='max-w-5xl m-auto h-[560px] mt-14'></Image>
+      <Image src={about1} alt='yoo' className='max-w-5xl m-auto h-[560px] mt-14'></Image>
       <p className='mt-14 text-lg'>Welcome to <b>EcoThreads</b>, a socially responsible and environmentally sustainable fashion brand that is dedicated to transforming the fashion industry. </p>
     <h1 className='text-5xl text-primary-color tracking-wider font-bold text-center my-10'>OUR MISSION</h1>
     <div className='flex justify-between '>
@@ -29,7 +29,7 @@ We are committed to having a positive impact on society as a whole, which is why
 Thank you for joining us on our mission to transform the fashion industry. Together, we can create a world where fashion is sustainable, equitable, and just for all.</p>
         </div>
        
-<Image src={about2} className='h-[470px]'></Image>
+<Image src={about2} alt='yoo' className='h-[470px]'></Image>
     </div>
     <h1 className='text-5xl text-primary-color tracking-wider font-bold text-center my-10'>OUR PROCESS</h1>
     <div className='flex justify-between '>
@@ -47,7 +47,7 @@ Thank you for joining us on our mission to transform the fashion industry. Toget
 </p>
         </div>
        
-<Image src={about3} className='h-[470px]'></Image>
+<Image src={about3} alt='yoo' className='h-[470px]'></Image>
     </div>
     </div>
     <Footer/>

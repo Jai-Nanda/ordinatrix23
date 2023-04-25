@@ -45,7 +45,7 @@ const Navbar = () => {
     >
       <div className='max-w-7xl m-auto flex justify-between items-center pt-8 '>
         <Link href='/'>
-          <Image src={Logo} alt='CORE LOGO' className='w-12'></Image>
+          <Image src={Logo} alt='CORE LOGO' className='w-12' ></Image>
         </Link>
         <ul className='hidden sm:flex font-medium'>
           {links.map(link => (

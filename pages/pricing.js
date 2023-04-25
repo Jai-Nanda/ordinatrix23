@@ -434,24 +434,24 @@ export default function pricing() {
             <div className="flex justify-evenly      mt-28">
                 <div className="flex flex-col justify-items-start  max-w-xl">
                     <h1 className="font-bold text-primary-color text-2xl">BIG DISCOUNTS</h1>
-                    <Image src={vector}></Image>
+                    <Image src={vector} alt="hey"></Image>
                     <p className="max-w-sm">Save big on ALL products everyday. Why wait for a sale?</p>
                 </div>
                 <div className="flex flex-col justify-center  max-w-xl">
                     <h1 className="font-bold text-primary-color text-2xl">EARLY ACCESS</h1>
-                    <Image src={vector}></Image>
+                    <Image src={vector} alt="hey"></Image>
                     <p className="max-w-sm">Get your hands on select products and designs before others do</p>
                 </div>
             </div>
             <div className="flex justify-evenly  mt-10">
                 <div className="flex flex-col  max-w-xl">
                     <h1 className="font-bold text-primary-color text-2xl">FREE DELIVERY</h1>
-                    <Image src={vector}></Image>
+                    <Image src={vector} alt="hey"></Image>
                     <p className="max-w-sm">We ship your orders before everyone else’s</p>
                 </div>
                 <div className="flex flex-col justify-start      mb-20">
                     <h1 className="font-bold text-primary-color text-2xl max-w-xl">PRIORITISED SHIPPING</h1>
-                    <Image src={vector}></Image>
+                    <Image src={vector} alt="hey"></Image>
                     <p className="max-w-sm">We ship your orders before everyone else’s</p>
                 </div>
             </div>

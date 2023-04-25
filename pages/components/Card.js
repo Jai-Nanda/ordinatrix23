@@ -5,7 +5,7 @@ export default function Card(props) {
   return (
     <div className="flex max-w-[300px] mx-5   flex-col justify-center items-center shadow-custom mb-10 rounded-lg">
         <div className="w-52 flex flex-col justify-center items-center">
-      <Image src={props.shirt} width={140} height={160} className="max-h-[160px] object-cover" ></Image>
+      <Image src={props.shirt} width={140} height={160} alt="hey" className="max-h-[160px] object-cover" ></Image>
         </div>
       <div className="flex flex-col justify-center  px-4 shadow-custom w-[300px] h-28  rounded-lg  ">
         <h2 className="text-xl font-medium  pl-7 pb-1">{props.title}</h2>
