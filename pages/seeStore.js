@@ -23,21 +23,21 @@ export default function store() {
 
          <h1 className='text-5xl text-primary-color tracking-wider font-bold text-center my-10 '>NEW ARRIVALS</h1>
          <div className="flex justify-between items-center ">
-          <Card />
-          <Card/>
-          <Card/>
+          <Card className="min-h-[700px]" title="Ecological TShirt" gender="Men's TShirt" pice="$29" shirt="/image 21.png"/>
+          <Card title="The Standards TShirt" gender="Men's TShirt" pice="$20" shirt="/Rectangle 3.png"/>
+          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 2-2.png"/>
           
          </div>
          <div className="flex justify-between items-center ">
-          <Card />
-          <Card/>
-          <Card/>
+          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 3.png"/>
+          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 2-1.png"/>
+          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 2-2.png"/>
           
          </div>
          <div className="flex justify-between items-center ">
-          <Card />
-          <Card/>
-          <Card/>
+          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 2-2.png"/>
+          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 2-2.png"/ >
+          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 2-2.png"/>
           
          </div>
         </div>

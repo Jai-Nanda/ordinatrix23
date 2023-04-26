@@ -2,6 +2,7 @@ import Link from "next/link"
 import Card from "./components/Card"
 import Footer from "./components/Footer"
 import Head from "next/head"
+import {AiOutlineRight} from 'react-icons/ai'
 export default function store() {
   return (
     <>
@@ -11,7 +12,6 @@ export default function store() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
-
 <h1 className='text-5xl text-primary-color tracking-wider font-bold max-w-7xl m-auto uppercase my-10'>Featured</h1>
 <div className="max-w-7xl m-auto mt-20 flex justify-between items-center"> 
     
@@ -50,7 +50,18 @@ export default function store() {
       </div>
       
       </div>
-      <h1 className='text-5xl text-primary-color tracking-wider font-bold max-w-7xl m-auto uppercase my-10'>new arrivals</h1>
+      <div className="flex justify-between items-center max-w-7xl m-auto">
+      <h1 className='text-5xl text-primary-color tracking-wider font-bold uppercase my-10'>new arrivals</h1>
+      <div className="flex justify-center items-center">
+      <Link className="underline font-medium  text-xl text-primary-color" href={"/seeStore"}>SEE MORE</Link>
+      <Link href={"/seeStore"}>
+      <div className="ml-5 w-7 h-7 bg-gray-300 rounded-full flex justify-center items-center">
+      <AiOutlineRight className="" size={16}/>
+      </div>
+      </Link>
+     
+      </div>
+      </div>
       <div className="max-w-7xl m-auto flex justify-between items-center">
         <Card className="min-h-[700px]" title="Ecological TShirt" gender="Men's TShirt" pice="$29" shirt="/image 21.png"/>
         <Card title="The Standards TShirt" gender="Men's TShirt" pice="$20" shirt="/Rectangle 3.png"/>
