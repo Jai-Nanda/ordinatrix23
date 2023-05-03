@@ -2,11 +2,11 @@
 export default function SidebarStore() {
   return (
     <>
-<div class="max-w-7xl m-auto w-52 min-h-[100vh] flex justify-center ">
+<div className="max-w-7xl m-auto w-52 min-h-[100vh] flex justify-center ">
 
 
-    <aside id="sidebar" class=" border-r-4 border-primary-color flex flex-col items-center w-full ">
-        <div class="flex flex-col">
+    <aside id="sidebar" className=" border-r-4 border-primary-color flex flex-col items-center w-full ">
+        <div className="flex flex-col">
 
         <ul className="border-b-2 border-primary-color pb-6 mr-7 mt-10">
           <li>Hoodies & Sweatshirts</li>

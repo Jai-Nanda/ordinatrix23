@@ -33,8 +33,8 @@ const Navbar = () => {
       path: "/about"
     },
     {
-      label: "YOUR PRODUCT",
-      path: "/components/slug"
+      label: "MY PRODUCT",
+      path: "/product"
     }
   ]
 
@@ -57,9 +57,9 @@ const Navbar = () => {
         {/* absolute inset-y-0 left-0 w-4 h-4 my-auto ml-2 fill-current */}
         {/* <TbArrowsExchange size={28}/> */}
         <div className='flex justify-center items-center '>
-        <div class="relative">
+        <div className="relative">
   <AiOutlineSearch className='absolute inset-y-0 left-0 w-4 h-4 my-auto ml-2 fill-current' size={28}/>
-  <input class="block rounded-s- w-full border bg-gray-100 rounded py-2 px-4 pl-10 focus:outline-none focus:ring focus:border-none" type="text" placeholder="Search"/>
+  <input className="block rounded-s- w-full border bg-gray-100 rounded py-2 px-4 pl-10 focus:outline-none focus:ring focus:border-none" type="text" placeholder="Search"/>
 </div>
 <div className='absolute top-0  right-0 bg-green-500 w-60  h-full hidden'>
   <div className='flex justify-evenly items-center mt-10'>
@@ -75,9 +75,13 @@ const Navbar = () => {
     </li>
   </ul>
 </div>
-            
+            <Link href={"/wishlist"}>
         <AiOutlineHeart size={28} className='ml-10 mr-5'/>
+            </Link>
+            <Link href={"/cart"}>
         <BsFillCartFill size={28}/>
+
+            </Link>
         </div>
         {/* Mobile Button */}
         <div onClick={handleNav} className='block sm:hidden z-10'>
@@ -97,7 +101,7 @@ const Navbar = () => {
         >
           <ul>
           {links.map(link => (
-            <li className='p-4' key={""}>
+            <li className='p-4' >
             <Link href={link.path}>{link.label}</Link>
           </li> 
           ))}

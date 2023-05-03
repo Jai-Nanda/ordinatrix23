@@ -1,4 +1,3 @@
-import Link from "next/link"
 import Card from "./components/Card"
 import SidebarStore from "./components/SidebarStore"
 import Footer from "./components/Footer"
@@ -21,23 +20,23 @@ export default function store() {
 
        
 
-         <h1 className='text-5xl text-primary-color tracking-wider font-bold text-center my-10 '>NEW ARRIVALS</h1>
-         <div className="flex justify-between items-center ">
-          <Card className="min-h-[700px]" title="Ecological TShirt" gender="Men's TShirt" pice="$29" shirt="/image 21.png"/>
-          <Card title="The Standards TShirt" gender="Men's TShirt" pice="$20" shirt="/Rectangle 3.png"/>
-          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 2-2.png"/>
+
+         <div className="flex justify-between mt-10">
+          <Card className="mr-20"  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 53.png"/>
+          <Card className="mr-20" title="The Standards TShirt" gender="Men's TShirt" price="$20" avatar="/image 60.png"/>
+          <Card className="" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 69.png"/>
           
          </div>
-         <div className="flex justify-between items-center ">
-          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 3.png"/>
-          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 2-1.png"/>
-          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 2-2.png"/>
+         <div className="flex justify-between  my-20 ">
+          <Card className="mr-20" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 65.png"/>
+          <Card className="mr-20" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 63.png"/>
+          <Card className="" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 64.png"/>
           
          </div>
-         <div className="flex justify-between items-center ">
-          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 2-2.png"/>
-          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 2-2.png"/ >
-          <Card title="Eco-Friendly Carry Bag" gender="Miscallaneous" pice="$10" shirt="/Rectangle 2-2.png"/>
+         <div className="flex justify-between  mb-10">
+          <Card className="mr-20" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 75.png"/>
+          <Card className="mr-20" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 76.png"/ >
+          <Card className="" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 74.png"/>
           
          </div>
         </div>
