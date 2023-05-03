@@ -101,7 +101,7 @@ const Navbar = () => {
         >
           <ul>
           {links.map(link => (
-            <li className='p-4' >
+            <li className='p-4' key={""}>
             <Link href={link.path}>{link.label}</Link>
           </li> 
           ))}

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import hey from '../../public/bro.png'
+import Link from "next/link"
 import { BsFillCartFill } from 'react-icons/bs'
 export default function Card(props) {
   return (
@@ -21,9 +21,9 @@ export default function Card(props) {
 
 
   <div className="bg-white border-2 border-[#155A1C] rounded-xl hover:scale-105 hover:shadow-xl duration-500">
-    <a href="/seeStore" className="cursor-pointer">
-      <img src={props.avatar} alt="Product image" className="h-80 w-72 object-cover rounded-xl" />
-    </a>
+    <Link href="/seeStore" className="cursor-pointer">
+      <Image src={props.avatar} width={288} height={320} alt="Product image" className="h-80 w-72 object-cover rounded-xl" />
+    </Link>
     <div className="px-4 py-3 w-72  border-t-2 border-[#155A1C]">
       <span className="text-gray-400 mr-3 uppercase text-xs">ecoThreads</span>
       <p className="text-lg font-bold text-black truncate block capitalize">{props.title}</p>
