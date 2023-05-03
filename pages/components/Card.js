@@ -33,9 +33,9 @@ export default function Card(props) {
           <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
         </del>
         <div className="ml-auto">
-          <a href="/seeStore">
+          <Link href={"/seeStore"}>
             <BsFillCartFill size={20}/>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
