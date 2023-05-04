@@ -22,21 +22,21 @@ export default function store() {
 
 
          <div className="flex justify-between mt-10">
-          <Card className="mr-20"  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 53.png"/>
-          <Card className="mr-20" title="The Standards TShirt" gender="Men's TShirt" price="$20" avatar="/image 60.png"/>
-          <Card className="" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 69.png"/>
+          <Card className="mr-20"  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 53.png"/>
+          <Card className="mr-20" title="The Standards TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 60.png"/>
+          <Card className="" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="Rs.800" avatar="/image 69.png"/>
           
          </div>
          <div className="flex justify-between  my-20 ">
-          <Card className="mr-20" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 65.png"/>
-          <Card className="mr-20" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 63.png"/>
-          <Card className="" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 64.png"/>
+          <Card className="mr-20" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="Rs.800" avatar="/image 65.png"/>
+          <Card className="mr-20" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="Rs.800" avatar="/image 63.png"/>
+          <Card className="" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="Rs.800" avatar="/image 64.png"/>
           
          </div>
          <div className="flex justify-between  mb-10">
-          <Card className="mr-20" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 75.png"/>
-          <Card className="mr-20" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 76.png"/ >
-          <Card className="" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="$10" avatar="/image 74.png"/>
+          <Card className="mr-20" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="Rs.800" avatar="/image 75.png"/>
+          <Card className="mr-20" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="Rs.800" avatar="/image 76.png"/ >
+          <Card className="" title="Eco-Friendly Carry Bag" gender="Miscallaneous" price="Rs.800" avatar="/image 74.png"/>
           
          </div>
         </div>
