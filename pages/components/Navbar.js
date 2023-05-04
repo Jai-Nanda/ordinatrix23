@@ -80,6 +80,7 @@ const Navbar = () => {
             </Link>
             <Link href={"/cart"}>
         <BsFillCartFill size={28}/>
+          <Image className="w-24 h-24 rounded-full " src={"https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTravis_Scott&psig=AOvVaw1J0aLpI1rXHvo2iMImsi9y&ust=1683258350499000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCLCf8pHg2v4CFQAAAAAdAAAAABAE"}/>
 
             </Link>
         </div>
