@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import Logo from '../../public/logo.png'
 import { AiOutlineHeart, AiOutlineCloseCircle } from 'react-icons/ai'
 import { BsFillCartFill } from 'react-icons/bs'
+import travis from '../../public/czgYrPLQ_400x400.jpg'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
@@ -75,13 +76,15 @@ const Navbar = () => {
     </li>
   </ul>
 </div>
+<div className="flex justify-center items-center">
+          
             <Link href={"/wishlist"}>
         <AiOutlineHeart size={28} className='ml-10 mr-5'/>
             </Link>
             <Link href={"/cart"}>
         <BsFillCartFill size={28}/>
-          <Image className="w-10 h-10 rounded-full " src={"https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTravis_Scott&psig=AOvVaw1J0aLpI1rXHvo2iMImsi9y&ust=1683258350499000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCLCf8pHg2v4CFQAAAAAdAAAAABAE"}/>
-
+          <Image className="w-10 h-10 rounded-full " src={travis}/>
+</div>
             </Link>
         </div>
         {/* Mobile Button */}
