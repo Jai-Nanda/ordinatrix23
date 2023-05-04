@@ -65,10 +65,10 @@ export default function store() {
       </div>
       </div>
       <div className="max-w-7xl m-auto flex justify-between items-center mb-20">
-        <Card  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 58.png"/>
-        <Card  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 69.png"/>
-        <Card  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 66.png"/>
-        <Card  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 70.png"/>
+        <Card  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 58.png"/>
+        <Card  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 69.png"/>
+        <Card  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 66.png"/>
+        <Card  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 70.png"/>
       </div>
       <div className="flex justify-between items-center max-w-7xl m-auto">
       <h1 className='text-5xl text-primary-color tracking-wider font-bold uppercase my-10'>Men’s Tshirts</h1>
@@ -84,10 +84,10 @@ export default function store() {
       </div>
 
       <div className="max-w-7xl m-auto flex justify-between items-center mb-20">
-        <Card  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 71.png"/>
-        <Card  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 69.png"/>
-        <Card  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 76.png"/>
-        <Card  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 72.png"/>
+        <Card  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 71.png"/>
+        <Card  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 69.png"/>
+        <Card  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 76.png"/>
+        <Card  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 72.png"/>
       </div>
       <div className="flex justify-between items-center max-w-7xl m-auto">
       <h1 className='text-5xl text-primary-color tracking-wider font-bold uppercase my-10'>Women’s Tshirts</h1>
