@@ -33,8 +33,8 @@ const Navbar = () => {
       path: "/about"
     },
     {
-      label: "MY PRODUCT",
-      path: "/product"
+      label: "SUPPORT",
+      path: "https://coreisus.com/contact"
     }
   ]
 
