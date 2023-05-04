@@ -84,8 +84,8 @@ const Navbar = () => {
             <Link href={"/cart"}>
         <BsFillCartFill size={28}/>
           <Image className="w-10 h-10 rounded-full " src={travis}/>
-</div>
             </Link>
+</div>
         </div>
         {/* Mobile Button */}
         <div onClick={handleNav} className='block sm:hidden z-10'>
