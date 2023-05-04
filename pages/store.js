@@ -103,10 +103,10 @@ export default function store() {
       </div>
 
       <div className="max-w-7xl m-auto flex justify-between items-center mb-20">
-        <Card  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 65.png"/>
-        <Card  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 64.png"/>
-        <Card  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 66.png"/>
-        <Card  title="Ecological TShirt" gender="Men's TShirt" price="$29" avatar="/image 73.png"/>
+        <Card  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 65.png"/>
+        <Card  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 64.png"/>
+        <Card  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 66.png"/>
+        <Card  title="Ecological TShirt" gender="Men's TShirt" price="Rs.800" avatar="/image 73.png"/>
       </div>
       <Footer/>
     </>
