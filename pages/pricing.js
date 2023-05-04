@@ -30,7 +30,7 @@ export default function pricing() {
                                         <h1 className="text-sm  font-semibold uppercase p-3 pb-0 text-center tracking-wide text-primary-color">
                                             LITE
                                         </h1>
-                                        <p className="text-4xl  font-semibold uppercase p-3 pb-0 text-center tracking-wide text-primary-color">$0</p>
+                                        <p className="text-4xl  font-semibold uppercase p-3 pb-0 text-center tracking-wide text-primary-color">Rs.0</p>
                                     </div>
 
                                     <div className="flex flex-wrap mt-3 px-6">
@@ -47,7 +47,7 @@ export default function pricing() {
                                                     </svg>
                                                 </div>
                                                 <span className="text-gray-700 text-lg ml-3">Paid deliveries for orders under
-                                                    $30</span
+                                                    Rs.1200</span
                                                 >
                                             </li>
                                             <li className="flex items-center">
@@ -95,7 +95,7 @@ export default function pricing() {
                                         <h1 className="text-sm  font-semibold uppercase p-3 pb-0 text-center tracking-wide text-primary-color">
                                             PLUS
                                         </h1>
-                                        <p className="text-4xl  font-semibold uppercase p-3 pb-0 text-center tracking-wide text-primary-color">$9.99</p>
+                                        <p className="text-4xl  font-semibold uppercase p-3 pb-0 text-center tracking-wide text-primary-color">Rs.169</p>
                                     </div>
 
                                     <div className="flex flex-wrap mt-3 px-6">
@@ -238,7 +238,7 @@ export default function pricing() {
                                         <h1 className="text-sm  font-semibold uppercase p-3 pb-0 text-center tracking-wide text-primary-color">
                                         PREMIER
                                         </h1>
-                                        <p className="text-4xl  font-semibold uppercase p-3 pb-0 text-center tracking-wide text-primary-color ">$19.99</p>
+                                        <p className="text-4xl  font-semibold uppercase p-3 pb-0 text-center tracking-wide text-primary-color ">Rs.1499</p>
                                     </div>
 
                                     <div className="flex flex-wrap mt-3 px-6">
