@@ -83,8 +83,9 @@ const Navbar = () => {
             </Link>
             <Link href={"/cart"}>
         <BsFillCartFill size={28}/>
+          </Link>
           <Image className="w-10 h-10 rounded-full " src={travis}/>
-            </Link>
+            
 </div>
         </div>
         {/* Mobile Button */}
